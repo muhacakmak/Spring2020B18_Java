@@ -29,11 +29,10 @@ public class Calculator {
         double stateTaxRates=0.04;
         double federalTaxRates=0.22;
         double weeklyHour=40;
-
         double yourSalary=hourlyRate*weeklyHour*4*12;
         double incomeAfterTax=yourSalary*(1-(stateTaxRates+federalTaxRates));
 
-        System.out.println("Your salary is: $"+yourSalary+".");
+        System.out.println("Your salary is: $"+(int)yourSalary+".");
         System.out.println("Your total tax is: $"+ yourSalary*(stateTaxRates+federalTaxRates)+".");
         System.out.println("Your income after tax: $"+incomeAfterTax+".");
 
