@@ -8,6 +8,26 @@ public class TellMeAboutYourSelf {
         System.out.println("I live in Virginia");
         System.out.println("I learn java");
         System.out.println("My dream job is QA");
+        System.out.println("   ^");
+        System.out.println("  /|\\");
+        System.out.println(" / | \\");
+        System.out.println("/  |  \\");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("|  |  |");
+        System.out.println("-------");
+        System.out.println("Q");
+
+
 
     }
 
