@@ -1,4 +1,4 @@
-package day03.Tasks;
+package day03_VariablesContinue;
 
 /*
 Tasks02:

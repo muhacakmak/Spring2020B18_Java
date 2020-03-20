@@ -1,4 +1,4 @@
-package day03.Tasks;
+package day03_VariablesContinue;
 /*
 task 07:
   create a class called Sequare, and write a program that can calculate the areas

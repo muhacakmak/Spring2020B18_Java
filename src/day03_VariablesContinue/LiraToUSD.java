@@ -1,4 +1,4 @@
-package day03.Tasks;
+package day03_VariablesContinue;
 /*
  task 05:
  create a class called LiraToUSD,and write a program

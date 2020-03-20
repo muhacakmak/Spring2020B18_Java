@@ -1,4 +1,4 @@
-package day03.Tasks;
+package day03_VariablesContinue;
 /*
  task 06:
         create a class called Circle, and write a program that can calculate

@@ -1,5 +1,5 @@
-package day03.Tasks;
-/* Task 08:
+package day03_VariablesContinue;
+/* Task1 08:
     Create a class called salary calculator, write a program that can calculate
     the taxt, and salary after tax based on the hourly rate & tax rates
             ex:
@@ -35,6 +35,7 @@ public class Calculator {
         System.out.println("Your salary is: $"+(int)yourSalary+".");
         System.out.println("Your total tax is: $"+ yourSalary*(stateTaxRates+federalTaxRates)+".");
         System.out.println("Your income after tax: $"+incomeAfterTax+".");
+        System.out.println(Math.abs(100-30));
 
     }
 }
