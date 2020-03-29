@@ -1,6 +1,6 @@
 package day03_VariablesContinue;
 /*
-task 07:
+Scanner_Practice1 07:
   create a class called Sequare, and write a program that can calculate the areas
   and perimeters of the sequare based on the length of the sequare, and print the result
   Note: you only need to length of the sequare in order to calculate the area and perimeter

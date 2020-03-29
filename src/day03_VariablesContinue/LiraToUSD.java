@@ -1,6 +1,6 @@
 package day03_VariablesContinue;
 /*
- task 05:
+ Scanner_Practice1 05:
  create a class called LiraToUSD,and write a program
  that can convert lira to dollars, and print the result
  */

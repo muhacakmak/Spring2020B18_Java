@@ -2,7 +2,7 @@ package day03_VariablesContinue;
 /* Task1 08:
     Create a class called salary calculator, write a program that can calculate
     the taxt, and salary after tax based on the hourly rate & tax rates
-            ex:
+            employed:
                 if:
                     rate = 55;
                     stateTax = 0.04;

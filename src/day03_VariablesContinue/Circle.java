@@ -1,6 +1,6 @@
 package day03_VariablesContinue;
 /*
- task 06:
+ Scanner_Practice1 06:
         create a class called Circle, and write a program that can calculate
         the areas and perimeters of the circle based on the value of the radius,
         and print the result
