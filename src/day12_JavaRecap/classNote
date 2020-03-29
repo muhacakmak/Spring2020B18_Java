@@ -1,0 +1,19 @@
+rnoon' reveiw:
+                scanner
+                ternary
+                switch
+package name: day12_JavaRecap
+Scanner methods:
+            next(): returns String (only takes the first word)
+            nextLine(): TAKES EVERYTHING THE SCANNER HAS, EVEN THE "ENTER" KEY
+            close(): closes the scanner
+when do we use nextLine method:
+                        first step:  next();
+                                                    nextLIne() to takeout the enter from the previous metod of scanner
+                        next step: nextLine();
+declare the scanner:
+            Scanner  variableName = new Scanner(System.in);
+                we call the methods of the scanner through the variableName
+next week:
+        String manipulation
+        loops
