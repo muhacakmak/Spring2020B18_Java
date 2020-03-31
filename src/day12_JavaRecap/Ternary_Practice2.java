@@ -12,7 +12,12 @@ public class Ternary_Practice2 {
                 :(char1=='E')?"E is selected":"Invalid Character";
 
         System.out.println(result);
-                
+        String str="Selcuk";
+        String str2=new String("Selcuk");
+        System.out.println(str);
+        System.out.println(str2);
+
+
 
     }
 }
