@@ -34,7 +34,6 @@ public class _051_TipCalculator_StringMethods {
         }
         String head=(numberOfPeople==1)?"&":(numberOfPeople==2)?"&&":(numberOfPeople==3)?"&&&":"&&&&";
 
-
         double tipPerPerson=tipResult/numberOfPeople;
         double perPeron = (checkAmount +tipResult)/ numberOfPeople;
         double totalPayment=checkAmount+tipResult;
@@ -50,7 +49,5 @@ public class _051_TipCalculator_StringMethods {
                     +"\nTotal per person: "+perPeron);
 
         }
-
-
     }
 }
