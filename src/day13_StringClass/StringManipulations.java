@@ -12,7 +12,7 @@ public class StringManipulations {
         System.out.println(ch1 == 'A');
         System.out.println(ch1 == 'T');
 
-        // length()
+        // lengthMethods()
         int totalLength=str.length();
         System.out.println(totalLength);
         System.out.println(totalLength>250);
