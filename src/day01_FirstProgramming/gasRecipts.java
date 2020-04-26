@@ -11,6 +11,7 @@ public class gasRecipts {
         System.out.println("price/galon:   2$");
         System.out.println();
         System.out.println("Total:          20$");
+        System.out.println("....................");
 
     }
 

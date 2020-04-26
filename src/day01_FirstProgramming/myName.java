@@ -6,6 +6,7 @@ public class myName {
 
         System.out.println("         My name is: Muhtar");
         System.out.println(        "I like Java" );
+        System.out.println("===============================");
 
     }
 

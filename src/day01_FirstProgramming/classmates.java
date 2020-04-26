@@ -9,6 +9,7 @@ public class classmates {
         System.out.println("Gulay Demirel");
         System.out.println("Martin Karakush");
         System.out.println("Zeynep Dere");
+        System.out.println("selcuk");
 
     }
 
