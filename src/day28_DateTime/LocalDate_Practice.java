@@ -24,6 +24,8 @@ public class LocalDate_Practice {
 
             System.out.println(friends[i] + "'s birthday is " + birthDays[i]);
 
+
+
         }
 
     }

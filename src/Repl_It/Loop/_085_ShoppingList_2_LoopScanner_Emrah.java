@@ -2,7 +2,7 @@ package Repl_It.Loop;
 
 import java.util.Scanner;
 
-public class _085_ShoppingList_2_LoopScanner {
+public class _085_ShoppingList_2_LoopScanner_Emrah {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String shoppingListReport = "";
@@ -13,29 +13,25 @@ public class _085_ShoppingList_2_LoopScanner {
         double totalPrice = 0;
 
         do {
-            System.out.println("Enter Item"+count+" and its price:");
-            item=scan.next();
-            price=scan.nextDouble();
-            shoppingListReport=item+count+":"+item+" Price:"+price+", ";
-            totalPrice+=price;
+            System.out.println("Enter Item" + count + " and its price:");
+            item = scan.next();
+            price = scan.nextDouble();
+            shoppingListReport += ", Item" + count + ": " + item + " Price: " + price;
             count++;
+            totalPrice += price;
             System.out.println("Add one more item?");
-            countinue=scan.next();
+            countinue = scan.next();
+            if (countinue.equalsIgnoreCase("yes")) {
 
-            while (countinue.equalsIgnoreCase("yes")){
-                System.out.println("Enter Item"+count+" and its price:");
-                count++;
-                item=scan.next();
-                price=scan.nextDouble();
-                shoppingListReport+=item+count+":"+item+" Price:"+price+", ";
-                totalPrice+=price;
             }
-            if(countinue.equalsIgnoreCase("no")){
-                System.out.println(shoppingListReport+"\nTotal price: "+totalPrice);
+            else if (countinue.equalsIgnoreCase("No")) {
+                shoppingListReport=shoppingListReport.substring(2);
+
+                System.out.println(shoppingListReport + "\nTotal price: " + totalPrice);
                 System.exit(0);
             }
 
-        }while (true);
+        } while (true);
 
     }
 }

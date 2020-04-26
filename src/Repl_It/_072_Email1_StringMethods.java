@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _072_Email1_StringMethods {
     /*
-    In this task, you need to swap the first name with the last name in the email.
+    In this Email, you need to swap the first name with the last name in the email.
     If the email doesn't contain underscore - do not do anything.
 
 Example:

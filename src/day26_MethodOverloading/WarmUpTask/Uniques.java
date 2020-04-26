@@ -1,4 +1,4 @@
-package day26_MethodOverloading;
+package day26_MethodOverloading.WarmUpTask;
 
 public class Uniques {
     /*
@@ -22,9 +22,6 @@ public class Uniques {
         String str2="Cybertek";
         String result2=uniques(str2);
         System.out.println(result2);
-
-
-
 
     }
     public static String uniques(String str) {

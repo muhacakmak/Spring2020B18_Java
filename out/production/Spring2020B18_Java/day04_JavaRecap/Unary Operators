@@ -1,0 +1,21 @@
+
+        +: positive
+        -: negative
+        ++: increment
+        --: decrement
+        + -: ===> -
+        - - :===> +
+        + + :===> +
+
+    increment : increases the value by 1
+
+    increment are :
+                1. pre increment;
+     operator is placed before the variable;
+                 2. post increment
+          operator after the variable
+
+
+    decrement: decreases the value by 1
+
+

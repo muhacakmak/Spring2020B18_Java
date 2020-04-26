@@ -1,0 +1,34 @@
+Boolean : Takes all boolean expression (true or false) and either
+true or false anything that can return true or false,
+can be initialized to boolean
+
+char: declared with in the single quote
+ ' ' is a Must when you give characters as value
+
+ char values came from ASCII table;
+ char  char1= 'a';
+        char2 =97;
+        char1 and char2 both prints a,
+        initializing char to other primitives : byte, short int long
+        float, double
+  char value can be assigned to:byte, short. int, long,
+  float, double
+/* Primitives:
+        byte:Only takes whole numbers
+        short:Only takes whole numbers
+        int:Only takes whole numbers
+        long:Only takes whole numbers
+        float:can take decimals (Must have )
+        double:can take decimal
+        boolean:true and false
+        char:
+         */
+
+
+
+
+
+
+
+
+

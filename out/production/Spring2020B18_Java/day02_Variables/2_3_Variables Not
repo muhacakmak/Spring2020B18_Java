@@ -1,0 +1,31 @@
+Veriables: makes the date reuable.
+declare variable:
+       DataTyepe VariableName;
+
+Variables name rules 
+			1. variable Name must start with alphabet a-z , A-Z
+			2. Variable name cannot contian any special characters other than _ and $ 
+			3. variable name must be unique 
+			4. Cannot be java reserved word
+Primitive datatyepes:
+                byte,
+                  We can assig whole numbers
+                  the number is must be between to -128<=byte<=127
+                short ,
+                  We can assig only whole number
+                  Must be with in -32768<=short <=32767 
+                int ,
+
+                	int num= 1_000_000_00 it is easy to read ... 
+                long,
+                We can only assign whol  number  
+                byte<short < int <long <
+                small one canbe assigned to larger one 
+
+                float,
+
+                We can assign decimals number 
+                 when we assign only decimal number as a float need to add f.F end of the number.
+
+                 double (used more often  ): we can assign decimals.
+

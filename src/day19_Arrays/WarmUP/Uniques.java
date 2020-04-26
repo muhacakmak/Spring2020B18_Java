@@ -1,6 +1,6 @@
 package day19_Arrays.WarmUP;
 
-public class Uniques_Practice {
+public class Uniques {
     /*
     1. write a program that can return the unique characters from a string
 		Ex:  "AABCC" ==> "B"

@@ -1,7 +1,5 @@
 package day18_nestedLoops;
-
 import java.util.Scanner;
-
 public class Assignment {
     /*
     Assignment:
@@ -18,42 +16,30 @@ public class Assignment {
                             if answer either yes or no ==> please re-enter
      */
     public static void main(String[] args) {
+        int price=0;
         while (true) {
             Scanner input = new Scanner(System.in);
-            System.out.println("Which bedroom do you want to reserve");
-            String room = input.nextLine();
-            boolean rightSelect = room.equalsIgnoreCase("King bed") || room.equalsIgnoreCase("Queen Bed")
-                    || room.equalsIgnoreCase("Single bed");
-            int price = 0;
-
-
-            if (room.equalsIgnoreCase("King bed")) {
-                price += 120;
-            } else if (room.equalsIgnoreCase("Queen Bed")) {
-                price += 100;
-            } else if (room.equalsIgnoreCase("Single bed")) {
-                price += 80;
+            System.out.println("Which bedroom do want to reserve");
+            String select=input.nextLine();
+            if(select.equalsIgnoreCase("King bed")){
+                price+=120;
+            } if(select.equalsIgnoreCase("Queen bed")){
+                price+=100;
+            }if(select.equalsIgnoreCase("Single bed")){
+                price+=80;
             }
-            System.out.println("Do you want reserve another room:");
-            String answer = input.nextLine();
-            if (answer.equalsIgnoreCase("yes")) {
-                if (room.equalsIgnoreCase("King bed")) {
-                    price += 120;
-                } else if (room.equalsIgnoreCase("Queen Bed")) {
-                    price += 100;
-                } else if (room.equalsIgnoreCase("Single bed")) {
-                    price += 80;
-                }
+            while (!(select.equalsIgnoreCase("King bed")||select.equalsIgnoreCase("Queen bed")
+            ||select.equalsIgnoreCase("Single bed"))){
+                System.out.println("Please re-enter");
+                select=input.nextLine();
             }
-            while (!rightSelect) {
-                System.out.println("please re-enter");
-                input.nextLine();
-            }
-
-            if (answer.equalsIgnoreCase("no")) {
-                System.out.println("Thank you...\nyour total price is: " + price);
+            System.out.println("Do want to anther room:");
+            select=input.nextLine();
+            if(select.equalsIgnoreCase("no")){
+                System.out.println("Thank you your total price "+price);
                 break;
             }
+
         }
     }
 }

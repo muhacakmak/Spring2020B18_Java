@@ -1,21 +1,8 @@
 package day13_StringClass;
 
-public class charAt {
+public class concat {
     public static void main(String[] args) {
-        // charAt()
 
-        String str = "Cybertekfffhfghghjgjghj";
-        //            01234567
-
-        char ch1 = str.charAt(5);
-        char ch4=str.charAt(4);
-        System.out.println(ch4);
-
-        System.out.println(str.length());
-
-        int lastindex=str.length()-1;
-        char lastch=str.charAt(str.length()-1);
-        System.out.println(lastch);
         ///
 
 
@@ -24,25 +11,28 @@ public class charAt {
 
 
 
-//        System.out.println(ch1 == 'A');
-//        System.out.println(ch1 == 'T');
-//
-//        // lengthMethods()
-//        int totalLength=str.length();
-//        System.out.println(totalLength);
-//        System.out.println(totalLength>250);
-//
-//
-        String str2="Today is great day, Java is fun";
-        int maxIndexNum=str2.length()-1;
-        System.out.println("MaxIndex= lenght-1"+maxIndexNum);
 
-//        //concat()
-//
-//        String s1="Cybertek";
-//        s1=s1.concat(" School");//"Cybertek Scool"
-//        System.out.println(s1);
-//        String s2="Java";
+        //concat()
+
+        String s1="Cybertek";
+        s1=s1.toUpperCase();
+        System.out.println(s1);
+        s1=s1.concat(" School");//"Cybertek Scool"
+        s1=s1.toUpperCase();
+
+        System.out.println(s1);
+
+        s1=s1+" School";
+       // System.out.println(s1);
+        String s2="Java";
+        System.out.println();
+
+
+
+
+
+
+
 //        System.out.println(s2.concat(" is a programming language"));
 //
 //        s2=s2.concat(" is a programming language");

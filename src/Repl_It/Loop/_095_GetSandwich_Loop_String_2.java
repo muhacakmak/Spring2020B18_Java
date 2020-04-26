@@ -2,7 +2,7 @@ package Repl_It.Loop;
 
 import java.util.Scanner;
 
-public class _095_GetSandwich_Loop_String {
+public class _095_GetSandwich_Loop_String_2 {
     /*
     A sandwich is two pieces of bread with something in between.
     Print the string that is between the first and last appearance of "bread" in
@@ -25,17 +25,23 @@ public class _095_GetSandwich_Loop_String {
 
         Scanner scan = new Scanner(System.in);
         String str = scan.next();//breadjambread
-        String sandwich;
-        sandwich = str.substring(str.indexOf("bread"), str.lastIndexOf("bread"));
 
-
-        for (int i = 0; i <= str.length()-1; i++) {
-            if (!(str.contains("bread"))&& (sandwich.isEmpty())) {
-                System.out.println("noting");
+        while (str.contains("bread")) {
+            String sandwich = str.substring(str.indexOf("bread"), str.lastIndexOf("bread"));
+            sandwich = sandwich.replaceFirst("bread", "");
+            if (sandwich.isEmpty()) {
+                System.out.println("nothing");
+                break;
             } else {
-                System.out.println(str.substring(str.indexOf("bread")+5, str.lastIndexOf("bread")));
-
+                System.out.println(sandwich);
+                System.exit(0);
             }
+        }
+        if (str.contains("bread")) {
+
+        } else {
+            System.out.println("Nothing");
+
         }
 
     }

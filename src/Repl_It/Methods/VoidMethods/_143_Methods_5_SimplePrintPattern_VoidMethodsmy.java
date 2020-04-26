@@ -1,4 +1,4 @@
-package Repl_It.Methods;
+package Repl_It.Methods.VoidMethods;
 
 public class _143_Methods_5_SimplePrintPattern_VoidMethodsmy {
     /*
@@ -22,34 +22,27 @@ the loop (so you will know whet to print "*" or " ")
     public static void printHollowRect() {
         for (int i = 0; i < 5; i++) {
 
-            for (int j = 0; j < 5; j++) {
-                if (i == 0 || i == 4) {
+            for (int j = 0; j <5; j++) {
 
+                if(j> 4||i<4)
+                System.out.print("0");
+                if(j>0){
                     System.out.print("*");
                 }
-
-
-                if (j == i) {
+                if (j==4||i==4){
                     System.out.print("*");
                 }
 
             }
-        }
+
+
             System.out.println();
 
-            for (int i = 0; i <5 ; i++) {
-                for (int j = 0; j <5 ; j++) {
-                    if(j>3){
-                        System.out.print("*");
-                    }else {
-                        System.out.print(" ");
-                    }
-                }
-                System.out.println();
-            }
 
         }
+
 
 
     }
+}
 

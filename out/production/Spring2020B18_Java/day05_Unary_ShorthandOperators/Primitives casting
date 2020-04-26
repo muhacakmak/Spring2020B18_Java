@@ -1,0 +1,16 @@
+casting: converts the large primitive
+to smaller size
+castings are either implicit  and explicit:
+explicit is used when we are converting from
+larger type to smaller type
+
+implicit casting: Auotomatic casting from  smaller
+primitive type into larger primitive type.
+
+Local Variables are declared within the method
+
+    Local variables must be defined(initial) before use
+
+
+
+

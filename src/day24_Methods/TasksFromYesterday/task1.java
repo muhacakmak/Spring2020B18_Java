@@ -1,4 +1,4 @@
-package day24_Methods.WarUp;
+package day24_Methods.TasksFromYesterday;
 
 import java.util.Scanner;
 

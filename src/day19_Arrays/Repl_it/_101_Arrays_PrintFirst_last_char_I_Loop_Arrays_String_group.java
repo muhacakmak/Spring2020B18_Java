@@ -1,8 +1,6 @@
 package day19_Arrays.Repl_it;
 
-import java.util.Scanner;
-
-public class _101_Arrays_PrintFirst_last_char_I_Loop_Arrays_String {
+public class _101_Arrays_PrintFirst_last_char_I_Loop_Arrays_String_group {
     /*
     Given a String array words, iterate through each word and print first and last
     letter of each element in separate lines.
@@ -15,39 +13,36 @@ public class _101_Arrays_PrintFirst_last_char_I_Loop_Arrays_String {
            ae
            ne
      */
-
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        String[] words = {input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine()};
 
 
-        //                0       1    2    3       4
-        String []words={"hello","why","by","apple","note"};
-//                       01234
+        //                0       1    2    3       4     5       6
+        String[] words = {"hello", "why", "by", "apple", "note","selcuk"};
+//                       012345
 
-String firstAndLastLetter="hello";
+       String d =""+words[0].charAt(0)+words[0].charAt(words[0].length()-1);
+       String anyword="hello";
+       //              01234
+
+//        String fistAndLastLetter=anyword.substring(0,1);
+//        System.out.println(fistAndLastLetter);
 
 
 
-
-//        for (String eachWord:words) {
-//            firstAndLastLetter=eachWord.substring(0,1)+eachWord.substring(eachWord.length()-1);
-//            System.out.println(firstAndLastLetter);
-//
+//        String fistAndLastLetter="";
+//        for (String eachWord:words) {//
+//           fistAndLastLetter= ""+eachWord.charAt(0)+eachWord.charAt(eachWord.length()-1);
+//            System.out.println(fistAndLastLetter);
 //
 //        }
-//                            5
+        String result="";// +ho+wy
         for (int i = 0; i <words.length; i++) {
+            String word=words[i];
+            String fistAndLastLetter=word.substring(0,1)+word.substring(word.length()-1);
+            result+=fistAndLastLetter+"\n";
 
-            String eachWord=words[i];
-            firstAndLastLetter+=eachWord.substring(0,1)+eachWord.substring(eachWord.length()-1);
-
-            System.out.println(firstAndLastLetter);
         }
-
-
-
-
+        System.out.println(result);
 
 
     }

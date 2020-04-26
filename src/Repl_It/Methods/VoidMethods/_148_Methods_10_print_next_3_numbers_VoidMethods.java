@@ -1,4 +1,4 @@
-package Repl_It.Methods;
+package Repl_It.Methods.VoidMethods;
 
 import java.util.Scanner;
 
@@ -22,16 +22,10 @@ public class _148_Methods_10_print_next_3_numbers_VoidMethods {
 
 
 
-
-
-
-
-
     }
     public static void next3(int num){
         System.out.println((num+1)+" "+(num+2)+" "+(num+3));
     }
-
 
 
 }

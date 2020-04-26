@@ -1,4 +1,4 @@
-package day26_MethodOverloading;
+package day26_MethodOverloading.WarmUpTask;
 
 public class Frequency {
     /*

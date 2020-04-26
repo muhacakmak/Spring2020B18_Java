@@ -1,4 +1,4 @@
-package day27_DateTime;
+package day27_DateTime.WarmUp;
 
 public class unique_Arrays {
     /*
@@ -12,7 +12,7 @@ public class unique_Arrays {
     public static void main(String[] args) {
 
 
-        int[] arr = {1, 1, 2, 3, 3};  // 2
+        int[] arr = {1, 1, 5, 3, 3};  // 2
         //           0  1  2  3  4
 
 
@@ -39,7 +39,7 @@ public class unique_Arrays {
         uniqueElements(arr3);
 
     }
-    
+
     public static void uniqueElements(int[] arr) {
 
         for (int each2 : arr) {
@@ -55,6 +55,7 @@ public class unique_Arrays {
         }
 
     }
+
     public static void uniqueElements(double[] arr) {
 
         for (double each2 : arr) {

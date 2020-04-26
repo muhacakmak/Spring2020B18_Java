@@ -1,6 +1,6 @@
 package Repl_It.Methods.returnMethods;
 
-public class _163_Methods_WithReturn_8_validateTask {
+public class _163_Methods_WithReturn_8_validateTask_group {
     /*
     We have a to do list app, every time a user adds a task - a few things needed to be checked.
     It should not be empty (boolean parameter needs to be true)
@@ -24,12 +24,18 @@ public class _163_Methods_WithReturn_8_validateTask {
     }
 
     public static boolean validateTask(boolean notEmpty, int taskId, int currentId) {
+        if(notEmpty){
+            if(taskId==currentId+1){
+                return true;
+            }else {
+                return false;
+            }
 
-        if (notEmpty) {
-            return taskId == currentId + 1;
-        } else {
+        }else {
             return false;
         }
+
+
 
     }
 }

@@ -1,4 +1,6 @@
-package day22.WarmUp;
+package day22_Arrays_Loops.WarmUp;
+
+import java.util.Arrays;
 
 public class EvenNumbers {
     /*
@@ -13,17 +15,19 @@ public class EvenNumbers {
     public static void main(String[] args) {
 
 
-        int [] numbers=new int[101];
-        for (int i = 1; i <=numbers.length -1; i++) {
-            numbers[i]=i;
-            System.out.print(numbers[i]+" ");
+        int[] numbers = new int[100];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i + 1;
+
         }
+        System.out.println(Arrays.toString(numbers));
+
         System.out.println();
-        for (int eachNumbers:numbers) {
+        for (int eachNumbers : numbers) {
             if (eachNumbers % 2 != 0) {
                 continue;
             }
-            System.out.print(eachNumbers+" ");
+            System.out.print(eachNumbers + " ");
         }
 
 

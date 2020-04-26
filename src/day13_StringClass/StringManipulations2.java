@@ -6,6 +6,9 @@ public class StringManipulations2 {
         System.out.println("Before substring-->> " + str);
 
         String schoolName = str.substring(0, 8);
+
+
+
         System.out.println("After substring-->> " + schoolName);
 
         String fullName = "Kuzzat Altay";

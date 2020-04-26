@@ -1,4 +1,6 @@
-package Repl_It.Arrays;
+package Repl_It.EachLoop;
+
+import java.util.Scanner;
 
 public class _119_Arrays_Average_temperature_Loop {
     /*
@@ -12,11 +14,12 @@ output: 78.5
      */
     public static void main(String[] args) {
 
-        double[] temps = {80, 88, 88, 84, 82, 78, 60, 68};
+        Scanner scan = new Scanner(System.in);
+        int k = 0;
         double total = 0;
         double avgTemp = 0;
-
-
+        double[] temps = { scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(),
+                scan.nextDouble(), scan.nextDouble(), scan.nextDouble() , scan.nextDouble()  };
 
         for (double eachTemp:temps){
 
@@ -24,11 +27,7 @@ output: 78.5
             avgTemp = total / (temps.length);
 
         }
-
-
-        System.out.println("Sum of temperature: " + total);
-        System.out.println("Average of temperature: " + avgTemp);
-
+        System.out.println(avgTemp);
 
     }
 }

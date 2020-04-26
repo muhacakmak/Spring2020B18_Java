@@ -2,25 +2,27 @@ package CodinBat.Warmup_1;
 
 import java.util.Scanner;
 
-public class posNeg {
+public class front3 {
     /*
-    Given 2 int values, return true if one is negative and one is positive.
-    Except if the parameter "negative" is true, then return true only if both are negative.
-    posNeg(1, -1, false) → true
-        posNeg(-1, 1, false) → true
-        posNeg(-4, -5, true) → true
+    Given a string, we'll say that the front is the first 3 chars of the string.
+    If the string length is less than 3, the front is whatever is there.
+    Return a new string which is 3 copies of the front.
+    front3("Java") → "JavJavJav"
+    front3("Chocolate") → "ChoChoCho"
+    front3("abc") → "abcabcabc"
    */
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int a=input.nextInt();
-        int b=input.nextInt();
-        if(a<0 ||b<0){
-
-        }else if (a>0 || b<0){
-
-        }else if(a<0 || b>0){
+        String str=input.next();
+        String Return=" ";
+        if(str.length()<3){
+            Return=str.concat(str).concat(str);
+        }
+        if(str.length()>=3){
+            Return=str.substring(0,3).concat(str.substring(0,3)).concat(str.substring(0,3));
 
         }
+        System.out.println();
 
     }
 }

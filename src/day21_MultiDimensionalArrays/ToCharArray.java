@@ -1,4 +1,4 @@
-package day21_MultiDimensionalArrays.WarmUp;
+package day21_MultiDimensionalArrays;
 
 public class ToCharArray {
     public static void main(String[] args) {

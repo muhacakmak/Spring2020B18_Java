@@ -1,4 +1,4 @@
-package Repl_It.Methods;
+package Repl_It.Methods.VoidMethods;
 
 import java.util.Scanner;
 
@@ -13,7 +13,6 @@ public class _145_Methods_7_plus_minus_VoidMethods {
         plus_minus(arr);
     }
     public static void plus_minus(int[] arr) {
-
         int countZero = 0;
         int countPositive = 0;
         int countNegative = 0;

@@ -2,7 +2,7 @@ package OfficeHours.Practice_04_15_2020;
 
 import java.util.Arrays;
 
-public class ArraysUtility {
+public class ArraysShortMethod {
 
     /*
     Arrays.shot();sort the array in Ascending order

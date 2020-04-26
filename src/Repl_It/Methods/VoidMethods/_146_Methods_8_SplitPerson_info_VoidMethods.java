@@ -1,4 +1,4 @@
-package Repl_It.Methods;
+package Repl_It.Methods.VoidMethods;
 
 import java.util.Arrays;
 import java.util.Scanner;

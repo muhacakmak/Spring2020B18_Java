@@ -1,4 +1,4 @@
-package Repl_It;
+package Repl_It.Loop;
 
 import java.util.Scanner;
 
@@ -16,13 +16,13 @@ public class _091_Count_Hi_Loop_String {
       */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String str = scan.nextLine();
+        String str = scan.nextLine();//abc hi how hi
         int count = 0;
 
 
         while (str.contains("hi")) {
 
-            str = str.replaceFirst("hi", "");
+           str = str.replaceFirst("hi", "");
             count++;
 
 

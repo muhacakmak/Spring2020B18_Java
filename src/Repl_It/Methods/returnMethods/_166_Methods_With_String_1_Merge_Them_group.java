@@ -1,8 +1,6 @@
 package Repl_It.Methods.returnMethods;
 
-import java.util.Arrays;
-
-public class _166_Methods_With_String_1_Merge_Them {
+public class _166_Methods_With_String_1_Merge_Them_group {
     /*
         When gears merge and work together, one teeth from each one goes in order.
         Write a method mergeStrings hat will return the strings merged,
@@ -36,37 +34,17 @@ public class _166_Methods_With_String_1_Merge_Them {
 //        }
 //
 //        for (int i = 0; i < forLoopSize; i++) {
-//            result += "" + oneArr[i] + twoArr[i];
-//        }
-//        System.out.println(result + leftLetters);
-        System.out.println(mergeStrings("wooden","spoon"));
+////            result += "" + oneArr[i] + twoArr[i];
+////        }
+////        System.out.println(result + leftLetters);
+//        System.out.println(mergeStrings("wooden","spoon"));
 
 
     }
 
-    public static String mergeStrings(String one, String two) {
-        int forLoopSize = 0;
-        String leftLetters = "";
-        String result = "";
-
-
-        char[] oneArr = one.toCharArray();
-        char[] twoArr = two.toCharArray();
-
-        if (oneArr.length > twoArr.length) {
-            forLoopSize = twoArr.length;
-            leftLetters = one.substring(two.length());
-
-        } else {
-            forLoopSize = oneArr.length;
-            leftLetters = two.substring(one.length());
-        }
-
-        for (int i = 0; i < forLoopSize; i++) {
-            result += "" + oneArr[i] + twoArr[i];
-        }
-
-        return result + leftLetters;
-
-    }
+//    public static String mergeStrings(String one, String two) {
+//
+//
+//
+//    }
 }
