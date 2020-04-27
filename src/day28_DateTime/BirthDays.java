@@ -6,10 +6,6 @@ public class BirthDays {
     public static void main(String[] args) {
         HappyBirthDay(2000,4,26);
 
-
-
-
-
     }
     public static void HappyBirthDay(int year, int month, int day){
         LocalDate birthday = LocalDate.of(year, month, day);

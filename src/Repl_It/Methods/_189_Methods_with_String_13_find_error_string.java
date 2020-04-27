@@ -1,4 +1,4 @@
-package Repl_It.Methods.VoidMethods;
+package Repl_It.Methods;
 
 public class _189_Methods_with_String_13_find_error_string {
     /*

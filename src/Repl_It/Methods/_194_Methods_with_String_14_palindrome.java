@@ -1,4 +1,4 @@
-package Repl_It.Methods.VoidMethods;
+package Repl_It.Methods;
 
 public class _194_Methods_with_String_14_palindrome {
     public static void main(String[] args) {

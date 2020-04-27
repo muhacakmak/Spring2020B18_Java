@@ -1,6 +1,6 @@
 package Repl_It.Methods;
 
-public class _174_Methods_with_String_9_remove_first_char {
+public class _174_Methods_with_String_9_remove_first_char_group {
     /*
     The method gets a string and returns a string minus the first letter.
     for example:

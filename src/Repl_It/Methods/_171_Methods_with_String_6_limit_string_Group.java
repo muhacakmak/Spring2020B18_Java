@@ -1,6 +1,6 @@
 package Repl_It.Methods;
 
-public class _171_Methods_with_String_6_limit_string {
+public class _171_Methods_with_String_6_limit_string_Group {
     /*
     This method gets a string and an int, it returns a string.
     what it dose is limit the inputted string to a cretin number of characters.
@@ -12,14 +12,14 @@ public class _171_Methods_with_String_6_limit_string {
     */
     public static void main(String[] args) {
 
-        System.out.println(limit("bla bla",3));
-
+        String text = "selcuk";
+        System.out.println(limit("Selcuk",2));
 
     }
-
     public static String limit(String text, int maxLength) {
-        text = text.substring(0, maxLength);
 
-        return text;
+        return text.substring(0, 2);
+
     }
+
 }

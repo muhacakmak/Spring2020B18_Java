@@ -2,7 +2,7 @@ package Repl_It.Methods;
 
 import java.util.Arrays;
 
-public class _178_Methods_with_Arrays_1_merge_arrays {
+public class _178_Methods_with_Arrays_1_merge_arrays_Group {
     /*
     mergR merges two arrays into one.
         it gets two int arrays and returns an int array
@@ -26,42 +26,29 @@ public class _178_Methods_with_Arrays_1_merge_arrays {
         do the same for the second array.
 
      */
-    public static int[] mergR(int[] a,int[] b){
-        int []mergesTwoArray=new int[a.length+b.length];
 
-        for (int i = 0; i <a.length ; i++) {
-            mergesTwoArray[i]=a[i];
-        }
-        for (int i = 0; i <b.length ; i++) {
-            mergesTwoArray[i+a.length]=b[i];
-        }
-
-        return mergesTwoArray;
-
-    }
 
     public static void main(String[] args) {
-
-        int []arr1={1,2,3};
-        int []arr2={4,5,6};
-
-
-//        int []mergesR=new int[arr1.length+arr2.length];
-//
-//        for (int i = 0; i <arr1.length ; i++) {
-//            mergesR[i]=arr1[i];
-//        }
-//        for (int i = 0; i <arr2.length ; i++) {
-//            mergesR[i+3]=arr2[i];
-//        }
-//
-//
-//        System.out.println(Arrays.toString(mergesR));
-        System.out.println(Arrays.toString( mergR(arr1,arr2)));
-
+//                    0  1  2
+        int[] arr1 = {1, 2, 3};//3
+        int[] arr2 = {4, 5, 6, 7};
+        mergR(arr1,arr2);
 
     }
-
-
+    public static int[] mergR(int[] a,int[] b) {
+        int[] mergeArr = new int[a.length + b.length];
+        int k = 0;
+        for (int eacNumber : a) {
+            mergeArr[k] = eacNumber;
+            k++;
+        }
+        int h = a.length;
+        for (int eacNumber2 : b) {
+            mergeArr[h]=eacNumber2;
+            h++;
+        }
+        System.out.println(Arrays.toString(mergeArr));
+        return mergeArr;
+    }
 
 }

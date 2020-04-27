@@ -1,4 +1,4 @@
-package Repl_It.Methods.VoidMethods;
+package Repl_It.Methods;
 
 public class _172_Methods_with_String_7_at_3rd_char {
     /*
