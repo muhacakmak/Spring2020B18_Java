@@ -25,6 +25,7 @@ public class SumOfDigits {
 //            boolean isDigit = each >= 48 && each <= 57;
 //            if (isDigit) {
 //                sum += Integer.parseInt("" + each);
+
 //
 //            }
 
