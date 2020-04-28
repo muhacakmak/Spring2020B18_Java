@@ -4,11 +4,6 @@ public class calc {
     //209. Static 2 - plus minus
     public static void main(String[] args) {
 
-
-
-
-
-
     }
     public static int plus(int num1,int num2){
         return num1+num2;
