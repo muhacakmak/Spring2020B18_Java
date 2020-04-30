@@ -54,14 +54,15 @@ public class EqualsMethods {
 //        }
         ArrayList <Integer> reversedList3 = new ArrayList <>();
 
-
         for (int i = list3.size()-1; i >=0 ; i--) {
            // System.out.print(list3.get(i)+" ");
             reversedList3.add(list3.get(i));
-
         }
         System.out.println(reversedList3);
         System.out.println(list3);
+
+        boolean r4=list3.isEmpty();
+        System.out.println(r4);
 
     }
 }
