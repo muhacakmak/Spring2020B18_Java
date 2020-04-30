@@ -31,7 +31,6 @@ public class _181_Methods_with_ArrayList_3_combine_arrays_m {
         System.out.println(result);
         combineRs(r1,r2);
         System.out.println(combineRs(r1,r2));
-
     }
     public static String combineRs(String[] r1, String[] r2) {
         String result = "";
