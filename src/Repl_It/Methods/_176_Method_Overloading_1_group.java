@@ -9,27 +9,37 @@ public class _176_Method_Overloading_1_group {
         System.out.println(findMax(arr));
 
     }
-
-    public static int findMax(int[] arr) {
-        int maxNumber = arr[0];
-        for (int i = 0; i < arr.length; i++) {//
-            int number = arr[i];// 2,-3
-            if (number > maxNumber) {
-                maxNumber = number;
-            }
-
-        }
-        return maxNumber;
-    }
-
-    public static double findMax(double[] arr) {
-        double maxNumber = arr[0];
-        for (int i = 0; i < arr.length; i++) {//
-            double number = arr[i];// 2,-3
-            if (number > maxNumber) {
-                maxNumber = number;
-            }
-        }
-        return maxNumber;
+//
+//    public static int findMax(int[] arr) {
+//        int maxNumber = arr[0];
+//        for (int i = 0; i < arr.length; i++) {//
+//            int number = arr[i];// 2,-3
+//            if (number > maxNumber) {
+//                maxNumber = number;
+//            }
+//
+//        }
+//        return maxNumber;
+//    }
+//
+//    public static double findMax(double[] arr) {
+//        double maxNumber = arr[0];
+//        for (int i = 0; i < arr.length; i++) {//
+//            double number = arr[i];// 2,-3
+//            if (number > maxNumber) {
+//                maxNumber = number;
+//            }
+//        }
+//        return maxNumber;
+ //   }
+public static int findMax(int[] arr){
+    Arrays.sort(arr);
+    return arr[arr.length-1];
+}
+    public static double findMax(double[] arr){
+        Arrays.sort(arr);
+        return arr[arr.length-1];
     }
 }
+
+

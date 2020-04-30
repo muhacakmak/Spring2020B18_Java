@@ -30,6 +30,28 @@ public class RemoveMethods {
 
         System.out.println(list2.size());
 
+        System.out.println("==============================");
+        ArrayList<Integer>num=new ArrayList <>();
+        num.add(6);
+        num.add(2);
+        num.add(3);
+        num.add(1);
+        num.add(9);
+        num.add(2);
+        num.add(5);
+        System.out.println(num);
+
+        num.remove(1);
+
+        System.out.println(num);
+        Integer a=3;
+
+        num.remove(a);
+        System.out.println(num);
+
+
+
+
 
 
 
