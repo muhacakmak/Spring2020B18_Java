@@ -10,15 +10,13 @@ public class _190_Methods_with_ArrayList_11_appendPosSum {
         Integer [] num={4,-6,3,-8,0,4,3};
         nums.addAll(Arrays.asList(num));
         int sum=0;
-        ArrayList <Integer> numPositive = new ArrayList <>();
-        for (Integer eachNum:nums) {
-            if(eachNum>0){
-                sum+=eachNum;
-                numPositive.add(eachNum);
-            }
-        }
-
-
+//        ArrayList <Integer> numPositive = new ArrayList <>();
+//        for (Integer eachNum:nums) {
+//            if(eachNum>0){
+//                sum+=eachNum;
+//                numPositive.add(eachNum);
+//            }
+//        }
 
 //        nums.add(4);
 //        nums.add(-6);
@@ -27,6 +25,7 @@ public class _190_Methods_with_ArrayList_11_appendPosSum {
 //        nums.add(0);
 //        nums.add(4);
 //        nums.add(3);
+
         System.out.println(nums);
 
 

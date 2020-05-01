@@ -11,10 +11,10 @@ wrapper classes: classes that are dedicated to primitives
 
         Byte, Short, Integer, Long, Float, Double, Character, Boolean
         presented in "java.lang" package
-    AutoBoxing: converting primitive values to wrapper class
+        AutoBoxing: converting primitive values to wrapper class
                     int a = 100;
                     Integer b = a  // auto boxing
-    unboxing: converting wrapper class value to primitives
+        unboxing: converting wrapper class value to primitives
                 Integer a = 100;
                 int b = a;  // unboxing
     int a = 100;
