@@ -13,9 +13,5 @@ public class RemoveDuplicates {
         for (Integer each:list) {
 
         }
-
-
-
-
     }
 }

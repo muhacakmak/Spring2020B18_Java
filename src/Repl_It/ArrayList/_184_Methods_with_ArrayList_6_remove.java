@@ -12,10 +12,15 @@ public class _184_Methods_with_ArrayList_6_remove {
         dubs.add(9.9);
         dubs.add(2.2);
         dubs.add(5.5);
+       // System.out.println(dubs);//[6.2, 1.2, 3.3, 11.1, 9.9, 2.2, 5.5]
+//        dubs.remove(0);
+//        dubs.remove(0);
         System.out.println(dubs);
+
+
+
+        //test(dubs);
         test(dubs);
-
-
 
 
 
@@ -23,11 +28,8 @@ public class _184_Methods_with_ArrayList_6_remove {
 
     }
     public static void test(ArrayList <Double> dubs) {
-        Double leftFirst =dubs.get(0);
-        dubs.remove(leftFirst);
-        Double leftSecond=dubs.get(0);
-        dubs.remove(leftSecond);
-
+        dubs.remove(0);
+        dubs.remove(0);
         System.out.println(dubs);
     }
 
