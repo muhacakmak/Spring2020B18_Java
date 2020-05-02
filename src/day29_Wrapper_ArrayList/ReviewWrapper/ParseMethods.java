@@ -18,6 +18,41 @@ public class ParseMethods {
 
 
 
+        String str2="10.5";
+        float f1=Float.parseFloat(str2);// float 10.5
+        System.out.println(f1+1);
+
+        double d1=Double.parseDouble(str2);
+        System.out.println(d1+1);
+
+
+
+        String str3="3147483647";
+
+        long num1=Long.parseLong(str3);//auto boxing,
+
+        System.out.println(num1+2);
+
+
+        Long L1=num1;
+        System.out.println(L1+2);
+
+        String result1="TRuE";
+        // any string other than "true" will ALWAYS return false, not case sensitive
+
+        boolean r1=Boolean.parseBoolean(result1);// boolean
+        System.out.println(r1);
+
+        String result2="fAlse";
+        boolean r2=Boolean.parseBoolean(result2);
+        System.out.println(r2);
+
+
+
+
+
+
+
 
 
 
