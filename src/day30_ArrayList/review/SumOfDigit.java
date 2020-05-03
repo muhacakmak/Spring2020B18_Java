@@ -11,7 +11,7 @@ public class SumOfDigit {
                 output: 17
                     (0+4+2+7+2+0+2+0=17)
             HINT: on ascii table, the characters between #48 ~ #57 are digits
-             HINT: on ascii table, the characters between #48 ~ #57 are digits
+
         */
 
     public static void main(String[] args) {
