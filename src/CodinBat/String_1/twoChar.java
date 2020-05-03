@@ -10,6 +10,7 @@ public class twoChar {
      twoChar("java", 2) → "va"
      twoChar("java", 3) → "ja"
 
+
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
