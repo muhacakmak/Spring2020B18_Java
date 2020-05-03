@@ -15,8 +15,6 @@ public class duplicated {
     public static void main(String[] args) {
 
         ArrayList <String> list = new ArrayList <>(Arrays.asList("A", "B", "A", "C", "D"));
-        String result="";
-
 
         ArrayList <String> duplicated = new ArrayList <>();
         System.out.println("Original list :"+list);
@@ -29,7 +27,7 @@ public class duplicated {
                 }
             }
             if(count>1&& !duplicated.contains(each2)){
-                    duplicated.addAll(Arrays.asList(each2));
+                duplicated.addAll(Arrays.asList(each2));
             }
         }
         System.out.println(duplicated);
