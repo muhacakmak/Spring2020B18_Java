@@ -30,9 +30,7 @@ public class Uniques {
                 result.add(each);
             }
         }
-
         System.out.println(result);
-
 
     }
 }
