@@ -27,7 +27,6 @@ public class CombineTwoArrays {
         }
 
 
-
         System.out.println(list);
     }
 }
