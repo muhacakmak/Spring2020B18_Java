@@ -12,6 +12,8 @@ public class RemoveDuplicates {
         ArrayList<Integer>result=new ArrayList <>();// expexted result :[]
         for (Integer each:list) {
 
+
+
         }
     }
 }
