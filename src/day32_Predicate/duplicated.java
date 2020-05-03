@@ -15,29 +15,24 @@ public class duplicated {
     public static void main(String[] args) {
 
         ArrayList <String> list = new ArrayList <>(Arrays.asList("A", "B", "A", "C", "D"));
-        ArrayList <String> duplicated = new ArrayList <>();
-
         String result="";
+
+
+        ArrayList <String> duplicated = new ArrayList <>();
+        System.out.println("Original list :"+list);
         for(String each2:list){
             int count = 0;
             for (int i = 0; i < list.size(); i++) {
                 String eac=list.get(i);
-                if (eac==each2){
+                if (eac.equals(each2)){
                     count++;
                 }
-
             }
-
-            if(count==1){
-
-                duplicated.addAll(Arrays.asList(each2));
-
+            if(count>1&& !duplicated.contains(each2)){
+                    duplicated.addAll(Arrays.asList(each2));
             }
-
         }
         System.out.println(duplicated);
-
-
 
     }
 }
