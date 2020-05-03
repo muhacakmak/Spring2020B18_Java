@@ -3,7 +3,7 @@ package day29_Wrapper_ArrayList.ArrayListReview;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class AddMethods {
+public class Add_And_Get_Methods {
     public static void main(String[] args) {
         //add(): adds Objects to the arraylist
         ArrayList <Integer> scores = new ArrayList <>();
@@ -17,6 +17,10 @@ public class AddMethods {
 
         double a3 = scores.get(2);// unboxing
         System.out.println(a);
+
+
+
+
 
 
     }
