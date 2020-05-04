@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class Uniques {
     /*
-    write a program that can return the unique objects from arraylist of characters
+    write a program that can return the uniqueWithLoop objects from arraylist of characters
      */
     public static void main(String[] args) {
         ArrayList <Character> list = new ArrayList <>(Arrays.asList('A', 'A', 'B', 'C', 'D', 'D'));

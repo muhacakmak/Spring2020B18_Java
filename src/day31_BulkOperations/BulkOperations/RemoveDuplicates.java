@@ -12,10 +12,7 @@ public class RemoveDuplicates {
         ArrayList<Integer>result=new ArrayList <>();// expexted result :[]
         for (Integer each:list) {
             if(!result.contains(each)){
-
                 result.add(each);
-
-
             }
         }
         System.out.println(result);

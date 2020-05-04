@@ -2,7 +2,7 @@ package day26_MethodOverloading.WarmUpTask;
 
 public class Uniques {
     /*
-    2. use the above method to create another called uniques that accepts a string paramter and returns it's unique characters as String
+    2. use the above method to create another called uniques that accepts a string paramter and returns it's uniqueWithLoop characters as String
 			Ex: uniques("ABBC"); 		==> "AC"
 				uniques("Cybertek");  	==> "cybrtk"
 

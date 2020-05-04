@@ -2,7 +2,7 @@ package day19_Arrays.WarmUP;
 
 public class Uniques_2 {
     /*
-    1. write a program that can return the unique characters from a string
+    1. write a program that can return the uniqueWithLoop characters from a string
 		Ex:  "AABCC" ==> "B"
 
      */

@@ -4,7 +4,7 @@ public class UniqueValues {
 
     /*
     warmup task:
-	1.  Write a program that can print out the unique values from a String Array
+	1.  Write a program that can print out the uniqueWithLoop values from a String Array
 			Ex:
 				if arr -> {"A", "A", "B", "C", "C"}
 				output: B
@@ -45,7 +45,7 @@ public class UniqueValues {
                 }
 
             }
-            if (count == 1) {// if the character is unique
+            if (count == 1) {// if the character is uniqueWithLoop
                 System.out.println(each2);
 
             }
@@ -63,7 +63,7 @@ public class UniqueValues {
 //            }
 //
 //        }
-//        if (count == 1) {// if the character is unique
+//        if (count == 1) {// if the character is uniqueWithLoop
 //            System.out.println("C");
 //
 //        }

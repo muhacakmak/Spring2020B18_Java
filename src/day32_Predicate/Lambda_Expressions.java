@@ -8,6 +8,12 @@ public class Lambda_Expressions {
     public static void main(String[] args) {
 
         Predicate <Integer> oddNumber = x -> x % 2 != 0;
+//        for (int x = 0; x < 5; x++) {
+//            if(x%2!=0){
+//
+//            }
+//
+//        }
         ArrayList <Integer> list = new ArrayList <>();
         list.addAll(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 

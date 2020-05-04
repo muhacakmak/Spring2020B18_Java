@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Unique {
     /*
-    3. write a program that can print out the unique elements from an int array
+    3. write a program that can print out the uniqueWithLoop elements from an int array
 		   HINT: store all the unqie elemenbts of array into a list of integers
 		   Ex: array==> {1,1,2,3,3,4,5}
 		   	   output: {2,4,5}
