@@ -23,11 +23,33 @@ public class Lambda_Expressions {
         System.out.println(list1);
 
         System.out.println("===========================================");
-        ArrayList<String>names=new ArrayList <>();
-        names.addAll(Arrays.asList("Elif","Selcuk", "Emir","Tahir","Muhammed","Mehmet"));
-        Predicate<String>startWithM=s->s.startsWith("M");
+        ArrayList <String> names = new ArrayList <>();
+        names.addAll(Arrays.asList("Elif", "Selcuk", "Emir", "Tahir", "Muhammed", "Mehmet"));
+        Predicate <String> startWithM = s -> s.startsWith("M");
         names.removeIf(startWithM);
         System.out.println(names);
+
+        System.out.println("====================================");
+        ArrayList <String> nameList = new ArrayList <>(); // remove start with M and A
+        Predicate <String> startWithMorA = each -> each.startsWith("M") || each.startsWith("A");
+
+        nameList.addAll(Arrays.asList("Muhtar", "Alex", "Asiye", "Dilnaz", "Radu"));
+        nameList.removeIf(startWithMorA);
+        System.out.println(nameList);
+        System.out.println("======================================================");
+        //c -> c >= 48 && c <= 57;
+        Predicate <Character> digits = c -> Character.isDigit(c);
+        ArrayList <Character> chars = new ArrayList <>();
+        chars.addAll(Arrays.asList('A', 'B', '3', '4', '5', '@', '&', 'Z'));
+        chars.removeIf(digits);
+        System.out.println(chars);
+
+        System.out.println("==================================================");
+        ArrayList<Integer>nums=new ArrayList <>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+        nums.removeIf(p->p>5);
+        System.out.println(nums);
+
+
 
 
     }
