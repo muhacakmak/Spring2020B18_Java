@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.function.Predicate;
 
-public class Taks2 {
+public class duplicated {
     /*
  2. write a program that can return the duplicated objects from a an ArrayList of Integers
 			Ex:
@@ -25,23 +25,13 @@ public class Taks2 {
         System.out.println("Original arrayList: " + list);
 
 
-        Predicate <Integer> duplicate = each -> Collections.frequency(list, each) >1;
+        Predicate <Integer> duplicate = p -> Collections.frequency(list, p) ==1;
 
         list.removeIf(duplicate);
-//        Predicate <Integer> duplicate2 = each -> Collections.frequency(list, each) > 1;
-//        list.removeIf(duplicate2);
 
         System.out.println(list);
 
 
-//        int count = 0;
-//        for (int k = 0; k < list.size(); k++) {
-//            count = Collections.frequency(list, list.get(k));
-//
-//            if (count == 1) {
-//                result.add(list.get(k));
-//            }
-//        }
 
     }
 
