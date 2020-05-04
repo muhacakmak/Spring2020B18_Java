@@ -12,7 +12,6 @@ public class Uniques {
         ArrayList <Character> list = new ArrayList <>(Arrays.asList('A', 'A', 'B', 'C', 'D', 'D'));
         ArrayList <Character> result = new ArrayList <>(Arrays.asList());
         System.out.println("Original list: " + list);
-
 /*
         for (int i = 0; i <list.size() ; i++) {
             int count= Collections.frequency(list,list.get(i));
@@ -22,7 +21,6 @@ public class Uniques {
         }
 
  */
-
         for (Character each:list) {
             int count= Collections.frequency(list,each);
             if(count==1){
