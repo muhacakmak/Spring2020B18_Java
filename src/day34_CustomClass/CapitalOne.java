@@ -1,6 +1,4 @@
-package day34;
-
-import day34.BankAccount;
+package day34_CustomClass;
 
 public class CapitalOne {
     public static void main(String[] args) {

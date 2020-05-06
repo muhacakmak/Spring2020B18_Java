@@ -1,4 +1,4 @@
-package day34;
+package day34_CustomClass;
 
 public class Pizza {
     String size;
