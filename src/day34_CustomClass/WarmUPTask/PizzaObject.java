@@ -1,4 +1,6 @@
-package day34_CustomClass;
+package day34_CustomClass.WarmUPTask;
+
+import day34_CustomClass.WarmUPTask.Pizza;
 
 public class PizzaObject {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day34_CustomClass.WarmUPTask;
+package day34_CustomClass;
 
 public class Carpet {
 

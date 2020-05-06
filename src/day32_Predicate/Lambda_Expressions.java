@@ -55,9 +55,5 @@ public class Lambda_Expressions {
         nums.removeIf(p->p>5);
         System.out.println(nums);
 
-
-
-
-
     }
 }

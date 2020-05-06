@@ -1,4 +1,6 @@
-package day34_CustomClass;
+package day34_CustomClass.WarmUPTask;
+
+import day34_CustomClass.WarmUPTask.BankAccount;
 
 public class CapitalOne {
     public static void main(String[] args) {

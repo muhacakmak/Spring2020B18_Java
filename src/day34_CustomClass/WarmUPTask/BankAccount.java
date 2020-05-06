@@ -1,4 +1,4 @@
-package day34_CustomClass;
+package day34_CustomClass.WarmUPTask;
 
 public class BankAccount {
     /*

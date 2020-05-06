@@ -1,4 +1,6 @@
-package day34_CustomClass.WarmUPTask;
+package day34_CustomClass;
+
+import day34_CustomClass.Carpet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,8 +35,9 @@ public class CarpetObjects {
         ArrayList<Carpet>regularCarpet=new ArrayList <>(Arrays.asList(carpets));
 
 
-        regularCarpet.removeAll(persianCarpet);
+       // regularCarpet.removeAll(persianCarpet);
 
+        regularCarpet.removeIf(p-> p.isPersian);
         System.out.println("There are "+regularCarpet.size()+" regular carpets");
 
 
