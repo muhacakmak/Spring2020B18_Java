@@ -10,11 +10,11 @@ create a class called Testers
 				setTesterInfo(), smokeTesting(),  creatingTicket();
      */
     String name;
-    String employeeID;
+    long employeeID;
     String jobTitle;
     double salary;
 
-    public void setTestersInfo(String name, String employeeID, String jobTitle, double salary) {
+    public void setTestersInfo(String name, long employeeID, String jobTitle, double salary) {
         this.name = name;
         this.employeeID = employeeID;
         this.jobTitle = jobTitle;

@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class ScrumTeam {
     String name;
 
-    ArrayList <Testers> listOfTesters = new ArrayList <>();
+    ArrayList <Testers> testerTeam = new ArrayList <>();
 
     ArrayList <Developers> listOfDevelopers = new ArrayList <>();
 
 
     public void hireTester(Testers testers) {
-        listOfTesters.add(testers);
+        testerTeam.add(testers);
     }
 
-    public void fireTester(Testers testers) {
-        listOfTesters.remove(testers);
+    public void fireTester(long employeeID) {
+        testerTeam.removeIf(p->p.employeeID==employeeID);
     }
 
     public void hireDeveloper(Developers developers) {
