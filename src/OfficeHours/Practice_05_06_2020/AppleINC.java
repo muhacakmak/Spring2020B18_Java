@@ -21,7 +21,6 @@ public class AppleINC {
             System.out.println(each);
 
         }
-
         System.out.println("=====================================================");
         Developer developer1=new Developer();
         developer1.setInfo("Barzy","Senior Developer",220200,1122337);
@@ -31,10 +30,8 @@ public class AppleINC {
         scrum1.hireADeveloper(developer2);
         //scrum1.fireADeveloper(1122337);
 
-
         for (Developer each:scrum1.developersTeam) {
             System.out.println(each);
-
         }
         System.out.println(scrum1.developersTeam.size());
         System.out.println("==================================================");
@@ -42,9 +39,6 @@ public class AppleINC {
 
         System.out.println("In my scrum team, We have "+scrum1.testersTeam.size()
                 +" testers and "+scrum1.developersTeam.size()+" developers.");
-
-
-
 
     }
 }
