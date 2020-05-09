@@ -20,16 +20,15 @@ public class DevelopersObject {
         Developer[]arr={developer1,developer2};
         for (int i = 0; i <arr.length ; i++) {
             System.out.println(arr[i]);
-
         }
         System.out.println("each =========================================");
         for (Developer each:arr) {
             System.out.println(each.name+" = $"+each.salary);
-
         }
         System.out.println("ArrayList =======================================");
         ArrayList<Developer>developers=new ArrayList <>();
         developers.addAll(Arrays.asList(arr));
+
         System.out.println("regular =========================================");
         for (int i = 0; i <developers.size() ; i++) {
             System.out.println(developers.get(i).name);

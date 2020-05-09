@@ -16,7 +16,8 @@ public class AppleINC {
         scrum1.hireATester(tester3);
         scrum1.hireATester(tester1);
         scrum1.hireATester(tester2);
-        //scrum1.fireATester(1245);
+        scrum1.fireATester(1245);
+
         for (Tester each:scrum1.testersTeam) {
             System.out.println(each);
 

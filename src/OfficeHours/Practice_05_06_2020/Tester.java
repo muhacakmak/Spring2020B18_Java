@@ -30,8 +30,5 @@ public class Tester {
     public void creatingTicket(){
         System.out.println(name+" is creating ticket on Jira");
 
-
-
-
     }
 }
