@@ -13,19 +13,18 @@ public class twoChar {
 
      */
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter text: ");
-        String str = scan.next();
-        System.out.print("Enter index: ");
-        int index = scan.nextInt();
-        String result = "";
-
-        if (str.length() >= 2) {
-            result=""+str.charAt(index) + str.charAt(index + 1);
-        }else if((index+2)>str.length()){
-            result=""+str.charAt(0) + str.charAt(1);
-        }
-        System.out.println(result);
+        String str=twoChar("hello",99);
+        System.out.println(str);
 
     }
+    public static String twoChar(String str, int index) {
+        String result="";
+        if(index+1>=str.length()||index<0){
+            result= str.substring(0,2);
+        }else{
+            result= str.substring(index,index+2);
+        }
+        return result;
+    }
+
 }

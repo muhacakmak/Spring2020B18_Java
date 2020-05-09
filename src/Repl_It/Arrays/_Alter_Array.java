@@ -1,42 +1,48 @@
 package Repl_It.Arrays;
 
 
+import java.util.Arrays;
+
 public class _Alter_Array {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
 
 
-//        int[] mystery = new int[a.length];
-//
-//        for (int i = 0; i < a.length; i++) {
-//            if (a[i] % 2 == 0) {
-//                mystery[i] = a[i] / 2;
-//            } else {
-//                mystery[i] = a[i] * 10;
-//            }
-//        }
-//        System.out.println(Arrays.toString(mystery));
+        int[] newArry = new int[a.length];
 
-        for(int e : mystery(a))
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 == 0) {
+                newArry[i] = a[i] / 2;
+            } else {
+                newArry[i] = a[i] * 10;
+            }
+        }
+
+
+
+
+
+          mystery(a);
+
+        System.out.println(Arrays.toString(a));
+
+        for(int e : newArry)
         {
             System.out.print(e + " ");
         }
-
-
-
     }
 
     public static int[] mystery(int[] array) {
-        int[] mystery = new int[array.length];
+        int[] newArr = new int[array.length];
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
-                mystery[i] = array[i] / 2;
+                newArr[i] = array[i] / 2;
             } else {
-                mystery[i] = array[i] * 10;
+                newArr[i] = array[i] * 10;
             }
         }
-        return mystery;
+        return newArr;
     }
 
 }
