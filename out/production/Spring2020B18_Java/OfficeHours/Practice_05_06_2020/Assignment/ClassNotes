@@ -1,0 +1,82 @@
+
+
+05/05/2020
+Topics: Class & Object Recap
+		this keyword
+
+package Name: day34_CustomClass
+
+warmup:
+1. create a custom class for the carpet class that should contain the following:
+
+                instance variables:
+                        width, length, unitPrice, isPersian (boolean)
+
+                instance methods:
+                        customOrder(): sets the carpet' width, length, unitprice, & isParsian
+                        calcCost(): should be able to caculate the total cost of the carpet and return it as double
+                        toString(): should be able to display all the info of the carpet including the total cost of the carpet as calculated by calcCost()
+
+            total price of carpet= (width*length)*unitprice
+            if the carpet is persian  carpet that's came from Turkey, add 200$ to the totalPrice
+
+            create a class called carpetObjects, and create an array of the carpet that contains 5 carpet objects ( make sure you set the instance variables of those objets)
+
+            create two ArrayList of carpets:
+                                        persianCarpets
+                                        reugularCarpets
+            write a program to store all the persian Carpets into the list of persianCarpets, and store all regular carpets into the list of reugularCarpets
+
+                    use for each loop to print out all the persian carpets
+
+this: refers to the object instance
+		this.: we can call any object instances
+class : not concrete
+
+object: is concrete
+
+task:
+create a class called Testers
+			Attributes:
+				name, employeeID, JobTitle, Salary
+			Actions:
+				setTesterInfo(), smokeTesting(),  creatingTicket();
+create a class called Developers
+			Attributes:
+				name, employeeId, JobTitle, Salary
+			Actions:
+				setDeveloperInfo(), coding(), fixingBugs()
+create a class called ScrumTeam
+			Attributes:
+				name
+				List of Testers,
+				List of Developers,
+			Actions:
+				hireTester
+				fireTester
+				hireDeveloper
+				fireDeveloper
+				DailyStandUp
+crteate a class called BankofAmerica:
+				Bank of America in VA is p-lanning to create a scrum teams:
+						4 developers 2 testers
+				 create a arraylist of scrum team and:
+						 1. use the for loop to print out every single employees from BOA' scrum teams
+						 2. calculate the total budgets of the screumteam
+ /*
+        create scrum2: 4 developers, 2 testers
+        create scrum3: 5 developers, 3 testers
+        create an array of scrum: {scrum1, scrum2, scrum3};
+            1. iterator the array to print out all the testers who have salary > 120000
+            2. print out all the developers who have salary < 120000
+        create an ArrayList of scrum: {scrum1, scrum2, scrum3};
+               1. remove all the testers who have salary < 100000
+               2. remove all the developers who have salary < 120000
+           NOTE: DO NOT create any ArrayList of Testers or Developers.
+                Use the ArrayLists in ScrumTeam class only
+         */
+
+
+
+
+
