@@ -1,0 +1,11 @@
+05/08/2020
+Topics: Static Block
+        Static Import
+        multi-classes
+Package Name: day36_StaticBlock
+static: runs first, only runs one time
+        executed as soon as class is loaded
+
+        static{
+            statemnts;
+        }
