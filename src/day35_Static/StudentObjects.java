@@ -11,5 +11,8 @@ public class StudentObjects {
         System.out.println(student1);
         System.out.println(student2);
 
+
+        Student.printSchoolName();
+
     }
 }
