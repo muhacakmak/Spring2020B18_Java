@@ -1,0 +1,22 @@
+05/11/2020
+Topics: static imports vs regular imports
+        instance block
+        constructor Intro
+Package name: day37_Constructors
+
+regular imports:
+
+    syntax:
+        import PackageName.ClassName;  // imports one class from package
+        import PackageName.*;  // imports all classes from the package
+static imports: we can import static variables or methods
+
+    syntax:
+        import static PackageName.className.name;  // only imports one static from the class
+        import static PackageName.className.*; // imports all static variables and methods from the class
+This week: constructor
+           Encapsulation
+           Access modifiers: public, default, private
+canvas -> java- > modules -> day37 -> static & instance short quiz
+ due by: 11: 30 am
+ PLEASE USE CHROME OR FIRE FOX BROWSER

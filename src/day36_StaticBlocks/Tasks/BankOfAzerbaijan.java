@@ -5,9 +5,11 @@ import java.util.Arrays;
 
 public class BankOfAzerbaijan {
     public static void main(String[] args) {
-        HumanResources humanResources=new HumanResources();
+
         ArrayList <Employee> employeeList=new ArrayList <>();
-        employeeList.addAll(Arrays.asList(HumanResources.employee1,HumanResources.employee2));
+
+        employeeList.add(HumanResources.employee1);
+        employeeList.add(HumanResources.employee2);
 
 
         System.out.println(employeeList.size());
