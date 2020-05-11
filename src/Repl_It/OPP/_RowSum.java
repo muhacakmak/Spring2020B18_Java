@@ -7,13 +7,10 @@ public class _RowSum {
 
         int[][] a = {{1, 1, 2}, {3, 1, 2}, {3, 5, 3}, {0, 1, 2}};
         int[] sums = rowSums(a);
-        for(int sum : sums) {
+        for (int sum : sums) {
             System.out.println(sum);
 
         }
-
-
-
 
 
 //        int arr[] = new int[nums.length];
