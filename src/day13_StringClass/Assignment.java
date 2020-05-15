@@ -6,7 +6,7 @@ public class Assignment {
     /*
         Assignment:
             write me a programk that asks the user fiurt and last names, then prints the initials.
-            ex:
+            Pizza:
                 input:
                     cybertek
                     school

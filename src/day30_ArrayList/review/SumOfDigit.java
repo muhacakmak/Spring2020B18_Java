@@ -3,7 +3,7 @@ package day30_ArrayList.review;
 public class SumOfDigit {
     /*
      1. write a program that can return the sum of all the digits from a string
-            ex:
+            Pizza:
                 input: "a1b2c3"
                 output: 6
                     (1+2+3= 6)

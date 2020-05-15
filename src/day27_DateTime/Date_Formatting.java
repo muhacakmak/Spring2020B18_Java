@@ -11,7 +11,7 @@ public class Date_Formatting {
 
         /*
         create a date called birthday : month /Days /year
-        ex=2020 04  23
+        Pizza=2020 04  23
         apr/23/20
          */
 

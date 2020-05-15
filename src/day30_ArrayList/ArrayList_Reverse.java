@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArrayList_Reverse {
     /*
     2. write a program that can print the list of integers in reversed order
-		ex:
+		Pizza:
 			list=> {1,2,3,4,5}
 			output: 5 4 3 2 1
      */

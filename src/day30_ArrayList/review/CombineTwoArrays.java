@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CombineTwoArrays {
     /*
     4. write a program that can combine two String arrays into one arrayList
-    ex:
+    Pizza:
     arr1 = {"A", "B", "C"};
     arr2 = {"D", "E", "F", "G"};
     list ==> {"A", "B", "C", "D", "E", "F", "G"}

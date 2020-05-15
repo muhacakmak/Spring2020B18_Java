@@ -15,7 +15,7 @@ warmup tasks:
                     zip code
                     full name of the person:
             and prints the ship to info in the following format:
-            ex output:
+            Pizza output:
                     Ship To:  Jimmy joe
                               7925 Jones Branch Dr
                               MCLean, VA 22102

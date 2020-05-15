@@ -6,7 +6,7 @@ public class CombineTwoArrays {
     /*
     			uniques ==> {2,4,5}
     5. write a program that can combine two String arrays into one arrayList
-    		ex:
+    		Pizza:
     			arr1 = {"A", "B", "C"};
     			arr2 = {"D", "E", "F", "G"};
     			list ==> {"A", "B", "C", "D", "E", "F", "G"}

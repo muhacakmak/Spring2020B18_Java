@@ -7,7 +7,7 @@ public class ExtractChars3 {
     /*
     3. write a program that can extract the sepecial characters,
     digits and alphebets from a string and stores them into seperate ArrayLists of Character:
-                			ex:
+                			Pizza:
                 				str = "ABCD123$%#@&456EFG!";
                 				list1: {$, %, #, @, &, !}
                 				list2: {A, B, C, D, E, F, G}

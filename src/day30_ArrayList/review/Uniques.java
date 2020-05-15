@@ -6,7 +6,7 @@ public class Uniques {
     /*
     3.  write a program that can find the uniqueWithLoop elements from an
     ArrayList of integers and stores into another list called uniques
-            ex: list==> {1,1,2,3,3,4,5}
+            Pizza: list==> {1,1,2,3,3,4,5}
                 uniques ==> {2,4,5}
      */
     public static void main(String[] args) {
