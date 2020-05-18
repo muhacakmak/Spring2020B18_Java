@@ -17,11 +17,6 @@ Encapsulation: hiding the data
                   passes a parameter
                   parameter must match with instance variables' dataType
                   initializes the argument to private instance variable
-canvas - > jav - > modules -> day40 -> Constructors Short quiz
-
-            by 11:30 am
-            plz use chrome or fire fox browsers
-creating object:
 
         new ExistingConstructor
 task:
