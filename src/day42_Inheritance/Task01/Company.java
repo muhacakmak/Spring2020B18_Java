@@ -17,13 +17,9 @@ public class Company {
 
         Employee [] employees={employee1,employee2,employee3};
        // System.out.println(Arrays.toString(employees));
-
         for (int i = 0; i < employees.length; i++) {
 //            System.out.println(employees[i]);
             System.out.println("Name: "+employees[i].name+", EployeeID: "+employees[i].employeeID);
-
         }
-
-
     }
 }

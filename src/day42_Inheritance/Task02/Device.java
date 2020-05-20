@@ -9,10 +9,23 @@ public class Device {
     public String brand;
     public String model;
     public double price;
-    public String country;
+    public  String country;
+    public String type;
+    public String size;
+
+
 
     public String toString(){
-        return "Brand: "+brand+", Model: "+model+", price: "+price+", country: "+country;
+        return "Brand: "+brand+", Model: "+model+", Type: "+type+", size: "+size+", Price: $"+price+", Made in: "+country;
+
+    }
+    public void setDevice(String brand,String model,double price,String type,String size,String country){
+        this.brand=brand;
+        this.model=model;
+        this.price=price;
+        this.type=type;
+        this.size=size;
+        this.country=country;
 
     }
 

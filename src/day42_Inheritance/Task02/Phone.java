@@ -11,6 +11,10 @@ public class Phone extends Device{
       price;(Inheritance)
       country;(Inheritance)
      */
+    public Phone(String brand,String model,double price,String size,String country) {
+        setDevice(brand, model, price, "Phone", size,country);
+
+    }
 
     public void call(){
         System.out.println("Calling by "+brand);
@@ -18,4 +22,5 @@ public class Phone extends Device{
     public void text(){
         System.out.println("Texting by "+brand);
     }
+
 }
