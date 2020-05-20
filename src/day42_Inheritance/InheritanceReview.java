@@ -7,11 +7,20 @@ class B {
         System.out.println("int");
 
     }
+
     public B(double a) {
         System.out.println("double");
 
     }
+
     public B(long a) {
+        this(10);
+
+        System.out.println("long");
+
+    }
+
+    public B(String a) {
         this(10);
 
         System.out.println("long");
@@ -21,13 +30,22 @@ class B {
 }
 
 public class InheritanceReview extends B {
-    InheritanceReview(String a) {
-        super(19l);
+    public InheritanceReview(double a) {
+        this(10);
+    }
+
+    public InheritanceReview(String a) {
+        this(10);
+        System.out.println("String");
+    }
+
+    public InheritanceReview(int a) {
+        super("");
         System.out.println("String");
     }
 
     public static void main(String[] args) {
-        InheritanceReview obj = new InheritanceReview("Selcuk");
+        InheritanceReview obj = new InheritanceReview(100);
 
 
     }
