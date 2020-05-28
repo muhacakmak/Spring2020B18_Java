@@ -1,0 +1,34 @@
+05/27/2020
+Topics: Exceptions
+package name: day44_Exceptions
+warmup task:
+    1. create a class called Browsers
+            actions: openBrowser():prints "opens the default browser"
+                     closeBrowser(): closes the default browser
+    2. create a class called ChromeBrowser
+            actions: openBrowser(): opens the chrome browser
+                     closeBrowser(): closes the chrome browser
+    3. creata a class called FirefoxBrowser
+            actions: openBrowser(): opens the Firefox browser
+                     closeBrowser(): closes the Firefox browser
+    4. create a class called Opera browser
+            actions: openBrowser(): opens the Opera browser
+                     closeBrowser(): closes the Opera browser
+    5. create a class called Test:
+            create an object of each browsers and call the openBrowser & closeBrowser actions
+    create all those classes in one java file
+Exceptions topic:
+        unchecked & checked exception
+        try & catch blocks
+        multi-catch blocks
+        finally block
+        throws
+        throw
+        Custom Exception
+next topic: final keyword
+Exceptions: unexpected or unwanted events
+
+    there two types of exception:
+            unchecked (unexpected event): occures during run time
+                RuntimeException is the parent of all exceptions
+            checked (unwanted events): occurs during the compile time. needs to be handled IMMEDIATELY

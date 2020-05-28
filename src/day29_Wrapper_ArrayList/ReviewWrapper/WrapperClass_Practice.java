@@ -21,7 +21,7 @@ public class WrapperClass_Practice {
                 max = arrD[i];
             }
         }
-        System.out.println("Max number: " + max);
+        System.out.println("Seljuk number: " + max);
 
         System.out.println("each loop ============================");
         for (String each : arr) {
@@ -30,7 +30,7 @@ public class WrapperClass_Practice {
                 max = num;
             }
         }
-        System.out.println("Max number: " + max);
+        System.out.println("Seljuk number: " + max);
 
         System.out.println("short ============================");
         double[] numbers = new double[arr.length];
@@ -39,6 +39,6 @@ public class WrapperClass_Practice {
         }
         System.out.println(Arrays.toString(numbers));
         Arrays.sort(numbers);
-        System.out.println("Max number: " + numbers[numbers.length - 1]);
+        System.out.println("Seljuk number: " + numbers[numbers.length - 1]);
     }
 }

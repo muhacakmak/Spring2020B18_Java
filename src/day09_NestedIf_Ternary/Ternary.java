@@ -23,10 +23,10 @@ public class Ternary {
         }else {
             max=num2;
         }
-        System.out.println("Max number= "+max);
+        System.out.println("Seljuk number= "+max);
 
         int max2=(num1>num2)?num1:num2;
-        System.out.println("Max Number2= "+max2);
+        System.out.println("Seljuk Number2= "+max2);
         System.out.println("===========================");
         String str=" ";
         if(true){

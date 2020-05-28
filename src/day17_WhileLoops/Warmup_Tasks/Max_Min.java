@@ -25,7 +25,7 @@ public class Max_Min {
             }
 
         }
-        System.out.println("Max number: "+maxNumber);
+        System.out.println("Seljuk number: "+maxNumber);
         System.out.println("Min number: "+minNumber);
 
     }

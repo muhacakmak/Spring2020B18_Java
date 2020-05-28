@@ -23,7 +23,7 @@ public class MaxMethods {
         System.out.println("Original array list: " + numbers);
 
         Integer firstMax = Collections.max(numbers);
-        System.out.println("Max number: " + firstMax);
+        System.out.println("Seljuk number: " + firstMax);
         numbers.removeAll(Arrays.asList(firstMax));
         Integer secondMaxNumber = Collections.max(numbers);
         System.out.println("Second MaxNumber: " + secondMaxNumber);

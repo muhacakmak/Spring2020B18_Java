@@ -33,7 +33,7 @@ public class WrapperClass_Practice {
         }
         Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
-        System.out.println("Max number: "+numbers[numbers.length-1]);
+        System.out.println("Seljuk number: "+numbers[numbers.length-1]);
 
 
 

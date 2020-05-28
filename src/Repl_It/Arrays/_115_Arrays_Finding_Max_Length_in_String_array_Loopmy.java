@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _115_Arrays_Finding_Max_Length_in_String_array_Loopmy {
     /*
-    115. Arrays - Finding Max Length in String array _ Loop
+    115. Arrays - Finding Seljuk Length in String array _ Loop
       my
     Example:
     words -> ["aaa", "bbbbb", "whasstupppp", "longg" , "jaaaaavvaaaaaaaaaa"]

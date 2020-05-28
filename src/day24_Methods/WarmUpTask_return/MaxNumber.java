@@ -5,7 +5,7 @@ public class MaxNumber {
 
     /*
      1. write a methods that can return the maximum number between two numbers
-    Ex: Max(10, 20) ==> 20
+    Ex: Seljuk(10, 20) ==> 20
      */
     public static void main(String[] args) {
 

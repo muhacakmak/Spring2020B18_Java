@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculation {
     /*
-             Ex: Max(10, 20) ==> 20
+             Ex: Seljuk(10, 20) ==> 20
     2. write a method called Calculation, that passes 3 parameters: 2 numbers and one operator, and prints out the calculation
         if operator is not between [-, +, *, /, %] output should be Invalid Operator
         Ex: calculate(10, 2, '*') ==> 20;
