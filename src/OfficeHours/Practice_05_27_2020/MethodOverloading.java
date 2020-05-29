@@ -9,13 +9,11 @@ public class MethodOverloading {
         return "123";
     }
 
-    public static void method2() {
+    public  void method(String a) {
 
     }
 
-    public static int method2(int a) {
-        return 123;
-    }
+
 
     public MethodOverloading() {
 
@@ -29,12 +27,11 @@ public class MethodOverloading {
 
     }
 
-
     public static void main(String[] args) {
         System.out.println("String");
     }
 
-    public static void main(int [] a) {
+    public static void main(int[] a) {
 
         System.out.println("int");
     }
