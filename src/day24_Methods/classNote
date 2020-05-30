@@ -11,7 +11,7 @@ Warmup tasks:
             calculate(10, 2, '&') ==> Invalid operator
             NOTE: The method MUST take three arguments when it's called
     3. write a method that can identify if a string is palindrome
-            Pizza: palindrom("level")  ==> true
+            Task.Pizza: palindrom("level")  ==> true
                 palindrome("Cybertek") ==> false
 task from yesterday:
     4. creata a function that can print the maximum number from any given array

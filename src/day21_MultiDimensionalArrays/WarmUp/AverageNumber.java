@@ -3,7 +3,7 @@ package day21_MultiDimensionalArrays.WarmUp;
 public class AverageNumber {
     /*
     1. write a program that can return the average number from an array of integers
-			Pizza:
+			Task.Pizza:
 				[1,2,3]
 				average: 2
 				[10, 15, 5, 6]

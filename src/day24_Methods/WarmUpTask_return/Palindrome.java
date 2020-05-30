@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
     /*
     3. write a method that can identify if a string is palindrome
-            Pizza: palindrom("level")  ==> true
+            Task.Pizza: palindrom("level")  ==> true
                 palindrome("Cybertek") ==> false
      */
     public static void main(String[] args) {

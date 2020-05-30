@@ -25,7 +25,7 @@ public class Pizza {
     }
 
     public String toString(){
-        return "Pizza size: "+size+"\nPepper toppings : "+pepperoniTopping+
+        return "Task.Pizza size: "+size+"\nPepper toppings : "+pepperoniTopping+
                 "\nCheese topping: "+cheeseTopping+"\nTotal Amount: $"+calcCost();
     }
 

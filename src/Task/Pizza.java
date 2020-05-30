@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Task;
 
 public class Pizza {
     private String size;
@@ -20,7 +20,7 @@ public class Pizza {
         this.hamTop = hamTop;
     }
     public String getDescription() {
-        return size +"Pizza with "+cheeseTop+" Cheese toppings, "+peperoniTop+
+        return size +"Task.Pizza with "+cheeseTop+" Cheese toppings, "+peperoniTop+
                 " Pepperoni toppings, and "+hamTop+" Ham toppings."+"\nTotal Price: "+calcCost();
     }
     public double calcCost() {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CalculateSum {
  /*   7. write a program that can calculate the sum of
     all numbers between 1 to any given number
-    Pizza:
+    Task.Pizza:
     input: 100
     output: 5050
     input: 50

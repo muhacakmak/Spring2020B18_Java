@@ -9,7 +9,7 @@ public class tasks {
 	5. Write a program that will print out all letters in English alphabet in ascending order
 	6. Write a program that will print out all letters in English alphabet in descedning order
 	7. write a program that can calculate the sum of all numbers between 1 to any given number
-		Pizza:
+		Task.Pizza:
 			input: 100
 			output: 5050
 			input: 50

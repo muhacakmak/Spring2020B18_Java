@@ -14,7 +14,7 @@ public class MaxMethods {
 //        System.out.println(min);
         /*
         1. write a program that can return the second maximum from ArrayList
-        Pizza={1,2,3,4,5,6,7,8,8}
+        Task.Pizza={1,2,3,4,5,6,7,8,8}
         output :7
          1. write a program that can return the second minimum from ArrayList
          output:2
