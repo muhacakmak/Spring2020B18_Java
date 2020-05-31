@@ -47,6 +47,17 @@ exception handling:
             }catch(){
             }
             ...
-            multye-catch block: parent exception class CAN NOT be placed before its child exception
-finally: always gets executed regardless of the exception
+            multye-catch block: parent exception class
+            CAN NOT be placed before its child exception
 
+ finally: always gets executed regardless of the exception
+ try{
+ }catch(){
+
+ }finally{
+ }
+ Task:1.
+ Write a method called "wait" that causes the current executing thread to sleep for the specific
+ number of secondsparameters: double secondsHINT: Thread.sleep()
+
+ Thread.sleep(long millisecond): makes the currecnt execution thread to wait for specific amount of time

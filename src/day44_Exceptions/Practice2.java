@@ -14,7 +14,6 @@ public class Practice2 {
         try {
             Thread.sleep((long) second * 1000);
         } catch (Exception e) {
-
         }
     }
 }

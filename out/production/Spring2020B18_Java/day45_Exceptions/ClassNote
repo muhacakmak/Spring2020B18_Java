@@ -1,0 +1,12 @@
+
+
+05/29/2020
+Topics: Exceptions Continue:
+                        throws
+throw
+thorws vs try&catch vs throwCustom Exception
+Package name: day45_Exceptions
+warmup tasks:
+        do 20 pushups
+        throws: used for handling checked exceptions. indicates that the methods throws an exceptionMUST be used in method signaturepublic static void method() throws Exceptionthe caller of the method is responsible for handling the exceptionwe can throw multiple exception.order: child first, then parentthrow: manually throwing the exception, DOES NOT HANDLEobject: new ExceptionClass();throw Object;Ex:throw new RuntimeException();Canvas -> Java -> Modules -> Day45 -> Inheritance short quizcome back at 11:35 amcustom exception:how to create custom unchecked exception?A: by extending RunTimeException classhow to create custom checked exception?A: by extending Exception classException topic:checked & uncheckedtry& catchmulti-catch blockfinally block
+throwthrowscustom exceptionnext: final keywordabstractionploymorphisimCollectionslambdaMaps
