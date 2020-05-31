@@ -41,7 +41,9 @@ exception handling:
             printStackTrace(): prints the stack trace of exception
             getMessage(): description of exception
             try{
+
             }catch(){
+
             }catch(){
             }
             ...

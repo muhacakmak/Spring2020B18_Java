@@ -18,9 +18,7 @@ public class ExceptionHandling {
         }catch (Exception e){
             System.out.println("Catch block");
             result=e.getMessage();
-
         }
-
         System.out.println(result);
         System.out.println("Completed");
     }

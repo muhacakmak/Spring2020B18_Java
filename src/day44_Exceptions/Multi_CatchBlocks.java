@@ -15,7 +15,6 @@ public class Multi_CatchBlocks {
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Index out of bound");
 
-
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic");
 
