@@ -39,11 +39,14 @@ exception handling:
             }catch(ExceptionClass  VariableName){
             }
             printStackTrace(): prints the stack trace of exception
-            getMessage(): discription of exception
+            getMessage(): description of exception
             try{
+
             }catch(){
+
             }catch(){
             }
             ...
-            mulit-catch block: parent exception class CAN NOT be placed before its child exception
+            multye-catch block: parent exception class CAN NOT be placed before its child exception
 finally: always gets executed regardless of the exception
+

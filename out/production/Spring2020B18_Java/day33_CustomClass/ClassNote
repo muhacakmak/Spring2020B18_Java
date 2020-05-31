@@ -21,7 +21,7 @@ package name: day33_CustomClass
               4. Use predicate and collections methods only
 3. write a program that can extract the sepecial characters, digits and letters from a string and stores them into
 seperate ArrayLists of Character:
-            Pizza:
+            Task.Pizza:
                 str = "ABCD123$%#@&456EFG!";
                 list1: {$, %, #, @, &, !}
                 list2: {A, B, C, D, E, F, G}
