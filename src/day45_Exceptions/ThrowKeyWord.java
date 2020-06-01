@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 public class ThrowKeyWord {
 
     public static void main(String[] args) throws Exception {
-        NoSuchElementException obj = new NoSuchElementException();
+       // NoSuchElementException obj = new NoSuchElementException();
         //  throw obj;
         //   throw new NoSuchElementException();
 
@@ -25,7 +25,7 @@ public class ThrowKeyWord {
 
 
 
-            throw new IOException();
+           // throw new IOException();
 
 
 
