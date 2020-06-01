@@ -19,10 +19,22 @@ public class ThrowsKeyword {
         sleep2();
         System.out.println("Java");
     }
-    public static void method1()throws Exception{
-        String []arr={"Z"};
-        main(arr);
 
+    public static void method1() throws Exception {
+        String[] arr = {"Z"};
+        main(arr);
     }
+    public static void method2() {
+        try {
+            method1();
+        }catch (Exception e){
+
+        }
+    }
+ public static void method3() {
+        method2();
+    }
+
+
 
 }
