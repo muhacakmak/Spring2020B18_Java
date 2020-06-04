@@ -1,0 +1,58 @@
+Task01:
+1. creaet an 06/04/2020
+                     topics: Abstraction:
+                                 abstract methods
+                                 abstract class
+                                 abstratc class vs non-abstract class
+                     package name: day47_Abstraction
+                     after recap:
+                         task01:
+                             1. create an abstract class called Employee
+                                     attributes: name, age, gender, salary, jobtitle
+                                     methods:
+                                             abstract methods: work()
+                                             instance method:  toString()
+                             2. create two sub classes of the Employee:
+                                                         1. Tester
+                                                         2. Developer
+                         task02:
+                             1. create an abstract class called RemoteWebDriver
+                                         attribues: browserName
+                                         methods:
+                                                 abstract methods: get(URL), close(), maximize();
+                             2. creata three sub classes of RemoteWebDriver:
+                                                     1. ChromeBrowser
+                                                     2. FireFoxBrowser
+                                                     3. OperaBrowser
+                     OOP Abstraction:
+                                 Abstract method
+                                 Abstract class
+                                 Interface
+                     abstraction: hiding implementation details
+
+                     abstract method: a method without the body
+                                      a method that's meant to be override (cannot private, static, final)
+
+                             public abstract void method();
+                             RemoteWebDriver:
+                                     get(URL);
+                                     quit();
+                             Chrome extends RemoteWebDriver:
+                                     get(URL): opens the chrome
+                                     quit(): quits the chrome
+                             FireFox extends RemoteWebDriver:
+                                     get(URL): opens the firefox
+                                     quit(): quits firefox
+                             Opera extends RemoteWebDriver:
+                                     get(URL): opens the Opera
+                                     quit(): quits Opera
+                             Cybertek extends RemoteWebDriver:
+                                     get(URL): opens the Cybertek Browser
+                                     quit(): closes the cybertek Browser
+                     THERE ARE ONLY TOW WAYS TO ACHIEVE ABSTRACTION:
+                                                     1. ABSTRACT CLASS
+                                                     2. INTERFACE
+                     Abstract class: meant to be inherited
+                                     A class that we cannot create object
+                     why wer cannot create objects from abstract class?
+                             abstract is not concrete, object has to be concrete
