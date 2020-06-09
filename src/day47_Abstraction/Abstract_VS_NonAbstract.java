@@ -11,8 +11,9 @@ abstract class Test2{
     public Test2(){
 
     }
-}
 
+}
 public class Abstract_VS_NonAbstract {
+
 
 }
