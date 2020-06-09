@@ -8,15 +8,18 @@ package day48_Abstraction.Task01;
 
  */
 public abstract class Phone {
-    public String brand;
+    public static String brand;
     public String model;
     public double price;
     public String size;
 
-    public abstract void calling();
 
-    public abstract void texting();
+    public abstract void calling(long PhoneNumber);
 
-    public abstract String toString();
+    public abstract void texting(long PhoneNumber);
+
+    public String toString() {
+        return "Brand: "+brand+", Model: "+ model+", Price: $"+price+", Size: "+size;
+    }
 
 }

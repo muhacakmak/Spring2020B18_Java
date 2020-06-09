@@ -1,29 +1,36 @@
 package day48_Abstraction.Task01;
 
+/*
+ 2. create the following subclasses of phone:
+                        1. iPhone
+                        2. Samsung
+   create constructors in each sub class that can initialize the instance variables
+ */
 public class iPhone extends Phone {
+    static {
+        brand = "Iphone";
+    }
 
-    public iPhone(String brand, String model, double price, String size) {
-        this.brand=brand;
-        this.model=model;
-        this.price=price;
-        this.size=size;
+    public iPhone(String model, double price, String size) {
+        this.model = model;
+        this.price = price;
+        this.size = size;
+    }
+
+    public void faceTiming(long phoneNumber) {
+        System.out.println("Iphone is faceTiming with " + phoneNumber);
     }
 
 
     @Override
-    public void calling() {
-        System.out.println("Iphone is calling");
+    public void calling(long phoneNumber) {
+        System.out.println("Iphone is calling " + phoneNumber);
 
     }
 
     @Override
-    public void texting() {
-        System.out.println("Iphone is texting");
+    public void texting(long phoneNumber) {
+        System.out.println("Iphone is texting " + phoneNumber);
 
-    }
-
-    @Override
-    public String toString() {
-        return "Brand: "+brand+", model"+ model+", price: $"+price+", size: "+size;
     }
 }

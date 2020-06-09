@@ -1,29 +1,28 @@
 package day48_Abstraction.Task01;
 
 public class Samsung extends Phone {
-
-    public Samsung(String brand, String model, double price, String size) {
-        this.brand=brand;
+    static {
+        brand = "Samsung";
+    }
+    public Samsung(String model, double price, String size) {
         this.model=model;
         this.price=price;
         this.size=size;
     }
 
-
     @Override
-    public void calling() {
-        System.out.println("Samsung is calling");
+    public void calling(long phoneNumber) {
+        System.out.println("Samsung is calling "+phoneNumber);
 
     }
 
     @Override
-    public void texting() {
-        System.out.println("Samsung is texting");
+    public void texting(long phoneNumber) {
+        System.out.println("Samsung is texting "+phoneNumber);
 
     }
-
-    @Override
-    public String toString() {
-        return "Brand: "+brand+", model"+ model+", price: $"+price+", size: "+size;
+    public void freezing(){
+        System.out.println("Samsung is freezing");
     }
+
 }
