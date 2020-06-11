@@ -20,7 +20,7 @@ public class Divisibility {
  */
 
     public static void main(String[] args) {
-        // DataType VariableName = Data;
+        // DataType VariableName = Test;
 
         int number = 65;
 

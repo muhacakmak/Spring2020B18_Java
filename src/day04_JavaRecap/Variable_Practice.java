@@ -1,7 +1,7 @@
 package day04_JavaRecap;
 
 public class Variable_Practice {
-    public static void main(String[] args) {  // DataType  variableName = Data;
+    public static void main(String[] args) {  // DataType  variableName = Test;
 
         byte num1 = 127;
         short num2 = num1;  //double > float > long > int > short > byte

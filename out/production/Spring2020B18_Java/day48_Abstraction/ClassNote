@@ -33,6 +33,7 @@ what we cannot have in interface?
         instance variable
         instance methods
         blocks
+
               RemoteWebDriver     imeplents WebDriver, TakeScreenShot, JavaScriptExecuter ..
            /       |       \
 

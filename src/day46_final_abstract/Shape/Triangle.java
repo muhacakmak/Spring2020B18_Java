@@ -1,6 +1,8 @@
-package day46_final_abstract;
+package day46_final_abstract.Shape;
 
-public class Triangle extends Shape{
+import day46_final_abstract.Shape.Shape;
+
+public class Triangle extends Shape {
     public double base;
     public double high;
 

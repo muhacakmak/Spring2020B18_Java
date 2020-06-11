@@ -1,6 +1,8 @@
 package day47_Abstraction.Task01;
 
-public class Tester extends Employee {
+import day33_CustomClass.Cat;
+
+public class Tester extends Employee{
     public Tester(String name,int age, char gender,double salary,String jobTitle){
        this.name=name;
        this.age=age;

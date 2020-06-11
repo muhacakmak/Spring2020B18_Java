@@ -1,6 +1,8 @@
-package day46_final_abstract;
+package day46_final_abstract.Shape;
 
-public class Rectangle extends Shape{
+import day46_final_abstract.Shape.Shape;
+
+public class Rectangle extends Shape {
     public double width;
     public double length;
 
