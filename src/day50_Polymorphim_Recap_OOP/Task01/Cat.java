@@ -1,4 +1,4 @@
-package day50_Polymorphim.Task01;
+package day50_Polymorphim_Recap_OOP.Task01;
 /*
 2. create subclass of Animal named Cat
             variable: catName
