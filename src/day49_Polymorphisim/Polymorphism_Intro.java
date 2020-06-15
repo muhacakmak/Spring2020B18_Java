@@ -32,6 +32,7 @@ public class Polymorphism_Intro {
         Robot obj7=new Robot();
 
         Robot [] animalShow={obj2,obj3,obj5,obj6,obj7};
+        String a="kkk";
 
 
 
