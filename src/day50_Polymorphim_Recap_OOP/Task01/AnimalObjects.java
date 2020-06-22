@@ -9,7 +9,7 @@ public class AnimalObjects {
 
 
         Animal obj2 = new Dog("kito", 6, "Female");
-        //System.out.println(obj2.dogName);
+//        System.out.println(obj2.dogName);
         //obj2.bark();
         obj2.eat();
 
@@ -24,6 +24,11 @@ public class AnimalObjects {
         Animal animal2=new Cat("Q","F",2);
         boolean r2=animal2 instanceof Animal;
         System.out.println(r2);
+
+        Animal cat3=new Cat("Yumag","F",10);
+
+        Cat cat4=(Cat)cat3;
+        System.out.println(cat4);
 
 
 

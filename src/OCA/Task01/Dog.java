@@ -1,4 +1,4 @@
-package day50_Polymorphim_Recap_OOP.Task01;
+package OCA.Task01;
 
 /*
 3. create subclass of Animal named Dog
