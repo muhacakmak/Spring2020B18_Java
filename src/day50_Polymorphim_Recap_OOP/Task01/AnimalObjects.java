@@ -16,6 +16,7 @@ public class AnimalObjects {
 
         Animal animal1=new Cat("A","F",1);
         boolean isCat=animal1 instanceof Cat;
+        //animal1.scratch();
         System.out.println(isCat);
 
         Dog d1=new Dog("A",1,"F");
@@ -26,11 +27,8 @@ public class AnimalObjects {
         System.out.println(r2);
 
         Animal cat3=new Cat("Yumag","F",10);
-
         Cat cat4=(Cat)cat3;
         System.out.println(cat4);
-
-
 
     }
 }
