@@ -13,9 +13,5 @@ public class Test {
         System.out.println(obj.getSSN());//12345
 
 
-
-
-
-
     }
 }
