@@ -9,17 +9,20 @@ public class MaxNumber {
      */
     public static void main(String[] args) {
 
-maxNumber(5,3);
+int a=maxNumber(5,3);
+        System.out.println(a+5);
 
     }
 
-    public static void maxNumber(int num1, int num2) {
+    public static int maxNumber(int num1, int num2) {
         if (num1 > num2) {
-            System.out.println("Maximum number is: " + num1);
+          //  System.out.println("Maximum number is: " + num1);
+            return num1;
         } else {
-            System.out.println("Maximum number is: " + num2);
-
+          //  System.out.println("Maximum number is: " + num2);
+            return num2;
         }
+
     }
 }
 
